@@ -14,43 +14,38 @@
 
 <body>
 
-    <header>
+    <header class="pt-2">
         <nav class="navbar navbar-expand-lg">
-           
-                <a class="navbar-brand" href="#">
-                    <img src="/assets/img/Leboncoin.fr_Logo_2016.svg" width="100" height="38" class="d-inline-block align-top" alt="">
+                <a class="navbar-brand mr-4" href="#">
+                    <img src="/assets/img/Leboncoin.fr_Logo_2016.svg" width="180" height="48" class="d-inline-block align-top" alt="">
                 </a>
-         
-            <!-- menu burger -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="collapse navbar-collapse" id="navbarColor01">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
+                <!-- menu burger -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars orange-burger"></i>
+                </button>
 
-                    </li>
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active mb-2">
+                            <a class="nav-link btn btn-outline-primary" href="#"> Déposer une annonce
+                                
+                            </a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a class="nav-link search-btn" href="#"> <i class="fas fa-search mx-2"></i> Rechercher</a>
+                        </li>
+                    </ul>
 
-                </ul>
-                <span class="navbar-text">
-                    <button>test</button>
-                </span>
-            </div>
+                    <a class="nav-link btn btn-primary text-left" href="#"> Se connecter
+
+                    </a>
+                </div>
         </nav>
 
     </header>
+
+
 
     <div class="container">
 
