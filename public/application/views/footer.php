@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -12,22 +12,21 @@
 <title>Title</title>
 </head>
 
-<body>
+<body> -->
 
 <footer>
-<!-- véhicule, immobiliers, mode, animaus, loisirs, jeux-vidéo, maison -->
+
     <div class="backFooter">
-        <div class="footerVehicule">
-            <h1><?php  ?></h1>
-            
-        </div>
+        
     </div>
 
     <div class="backFooterBis">
-        
+
     </div>
+
 </footer>
 
+</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
