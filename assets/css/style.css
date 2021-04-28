@@ -3,3 +3,21 @@ header {
     -webkit-box-shadow: 1px 5px 8px -1px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 1px 5px 8px -1px rgba(0, 0, 0, 0.2);
 }
+
+.orange-burger {
+    color:#e95420;
+}
+
+.fa-search {
+    font-size: 24px;
+
+}
+
+.search-btn {
+    color:black;
+}
+
+.search-btn:hover {
+    color:#e95420 !important;
+    opacity: 85%;
+}
