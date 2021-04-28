@@ -5,8 +5,8 @@ class signIn_model extends CI_Model
     {
         $this->load->database();
     }
-    public function addUser($data)
-    {
-        $this->db->insert('lbc_user', $data);
+   
+    public function SignIn(){
+        
     }
 }

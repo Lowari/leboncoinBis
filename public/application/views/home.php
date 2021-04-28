@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="<?= base_url()?>signIn">jqzd</a>
+    <a href="<?= base_url()?>signUp">inscription</a>
+    <a href="<?= base_url()?>signIn">connexion</a>
 </body>
 </html>
