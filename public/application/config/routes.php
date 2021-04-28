@@ -53,5 +53,6 @@ $route['default_controller'] = 'controller_signUp/home';
 $route['addUser'] = 'controller_signUp/addUser';
 $route['signUp'] = 'controller_signUp/signUp';
 $route['signIn'] = 'controller_signIn/signIn';
+$route['home'] = 'Controller_header/home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

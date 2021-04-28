@@ -16,7 +16,7 @@
 
     <header class="pt-2">
         <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand mr-4" href="#">
+                <a href="<?= base_url()?>home" class="navbar-brand mr-4" href="#">
                     <img src="/assets/img/Leboncoin.fr_Logo_2016.svg" width="180" height="48" class="d-inline-block align-top" alt="">
                 </a>
 
@@ -37,7 +37,10 @@
                         </li>
                     </ul>
 
-                    <a class="nav-link btn btn-primary text-left" href="#"> Se connecter
+                    <a href="<?= base_url()?>signIn" class="nav-link btn btn-primary text-left" href="#"> Se connecter
+
+                    </a>
+                    <a href="<?= base_url()?>signUp" class="nav-link btn btn-primary text-left" href="#"> Inscription
 
                     </a>
                 </div>
