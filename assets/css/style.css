@@ -1,4 +1,9 @@
 .postAdLog{
     height : 100vh;
-    border: 1px solid red;
+    margin-top : 30px;
+}
+header {
+    box-shadow: 1px 5px 8px -1px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 1px 5px 8px -1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 5px 8px -1px rgba(0, 0, 0, 0.2);
 }
