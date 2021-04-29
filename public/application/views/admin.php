@@ -13,7 +13,7 @@
   <tbody>
   <?php foreach($description_list as $user) { ?>
     <tr class="table-light">
-      <th scope="row"><a href="<?php base_url() ?>index.php/user_info"><?= $user->lastname?> <?= $user->firstname?></a></th>
+      <th scope="row"><a href="<?php base_url() ?>user_info"><?= $user->lastname?> <?= $user->firstname?></a></th>
       <td><?= $user->username?></td>
       <td><?= $user->mail?></td>
       <td><a href="<?= base_url() ?>deleteUser?id=<?=$user->id?>"> <i class="fas fa-gavel"></i> <u>Supprimer</u></a></td>

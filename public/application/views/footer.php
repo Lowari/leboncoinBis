@@ -1,20 +1,5 @@
-</div>
-</div>
-
 
 <footer>
-
-    <div class="backFooter pt-4 pb-4 text-center">
-        <div>
-            <?php foreach ($infoFooter as $info) { ?>
-                <div>
-                    <?php echo $info->name ?>
-                </div>
-            <?php }  ?>
-        </div>
-    </div>
-
-
     <footer class="backFooterBis text-center text-lg-start">
         <!-- Grid container -->
         <div class="container p-4">

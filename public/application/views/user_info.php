@@ -15,7 +15,7 @@
                 <li class="list-group-item">Ville : </li>
                 <li class="list-group-item">Code postal : </li>
             </ul>
-            <a href="" class="btn btn-primary mt-2">Retour</a>
+            <a href="<?= base_url()?>adminAccess" class="btn btn-primary mt-2">Retour</a>
             </p>
         </div>
     </div>

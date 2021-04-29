@@ -20,10 +20,11 @@ class Admin_controller extends CI_Controller
         $this->load->view('footer');
     }
 
-    public function deleteUser() {
+    public function deleteUser()
+    {
         $id = $_GET['id'];
         $this->admin_model->deleteUse($id);
         $this->index();
     }
-
+  
 }
