@@ -57,6 +57,7 @@ $route["error"] = "postAd/error";
 $route['default_controller'] = 'controller_accueil/accueil';
 $route['accueil'] = 'controller_accueil/accueil';
 $route['addUser'] = 'controller_signUp/addUser';
+$route['disconnect'] = 'Controller_header/disconnect';
 $route['signUp'] = 'controller_signUp/signUp';
 $route['signIn'] = 'controller_signIn/signIn';
 $route['checkConnect'] = 'controller_signIn/checkConnect';

@@ -33,7 +33,6 @@ class controller_signIn extends CI_Controller
                         unset($_SESSION["errorPass"]);
                         $this->signIn();
                 } else {
-                        var_dump($login);
                         if (sizeof($login) == 0) {
 
                                 $_SESSION["errorLogin"] = "Ce pseudonyme n'existe pas";
@@ -51,6 +50,8 @@ class controller_signIn extends CI_Controller
                                         unset($_SESSION["errorLogin"]);
                                         unset($_SESSION["errorPass"]);
                                         $_SESSION["id"] = $userId[0]->id;
+                                        $this->load->view('header');
+                                        $this->load->view('accueil');
                                 }
                         }
                 }
