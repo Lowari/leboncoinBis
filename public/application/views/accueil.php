@@ -81,6 +81,34 @@
 
 
 
+
+<?php
+    foreach ($test as $key => $value) {
+    ?>
+<div class="d-flex justify-content-center">
+<div class="card mb-3 mt-2 radAd">
+      <div class="row no-gutters littleCenter ">
+        <div class="col-md-4 col-12 ">
+          <img src="../../../assets/img/imgAd/<?php echo $test[$key]["image"] ?>" alt="..." class="imgAd radAdImg">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">  <?php echo $test[$key]["title"] ?> </h5>
+            <p class="card-text"> <?php echo $test[$key]["price"] ?></p>
+            <p class="card-text"> <?php echo $test[$key]["description"] ?></p>
+            <p class="card-text"><small class="text-muted"> <?php echo $test[$key]["title"] ?></small></p>
+            <!-- <p class="card-text"><small class="text-muted"><?= $test->regionName; ?> <?= $test->number; ?></small></p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+    <?php
+}
+    ?>
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
