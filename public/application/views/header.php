@@ -17,15 +17,8 @@
     <header class="pt-2">
         <nav class="navbar navbar-expand-lg">
 
-            <a class="navbar-brand" href="#">
-                <img src="/assets/img/Leboncoin.fr_Logo_2016.svg" width="100" height="38" class="d-inline-block align-top" alt="">
-            </a>
-
             <!-- menu burger -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-                <a href="<?= base_url()?>home" class="navbar-brand mr-4" href="#">
+                <a href="<?= base_url()?>accueil" class="navbar-brand mr-4" href="#">
                     <img src="/assets/img/Leboncoin.fr_Logo_2016.svg" width="180" height="48" class="d-inline-block align-top" alt="">
                 </a>
 
@@ -37,12 +30,10 @@
                 <div class="collapse navbar-collapse" id="navbarColor01">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active mb-2">
-                            <a class="nav-link btn btn-outline-primary" href="#"> Déposer une annonce
-                                
-                            </a>
+                            <a class="nav-link btn btn-outline-primary" href="<?=base_url()?>addAd"> Déposer une annonce</a>
                         </li>
                         <li class="nav-item mb-2">
-                            <a class="nav-link search-btn" href="#"> <i class="fas fa-search mx-2"></i> Rechercher</a>
+                            <a class="nav-link search-btn" href="<?=base_url()?>searchAd"> <i class="fas fa-search mx-2"></i> Rechercher</a>
                         </li>
                     </ul>
 
@@ -63,3 +54,4 @@
 
         <!-- création d'un container global pour mise en page -->
         <!-- /div à mettre dans le footer -->
+   

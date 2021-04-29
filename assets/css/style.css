@@ -1,3 +1,13 @@
+.postAdLog{
+    height : 100vh;
+    margin-top : 30px;
+}
+
+.postAd{
+    height : 100%;
+    margin-top : 30px;
+    width : 70%;
+}
 /* .content {
     position: absolute;
     overflow: hidden;
