@@ -22,7 +22,50 @@
 } */
 
 
+.card {
+    width: 60rem;
+    justify-content: center;
+    border-radius: 20px;
+}
 
+#contentCard {
+    height: 36vh;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+
+
+#contentCard:hover h3 {
+    color: #FF6E14;
+    transition: all 0.5s ease;
+}
+
+#contentCard .heart{
+    width: 2.8em !important;
+    position: absolute;
+    left: 92%;
+    top: 27%;
+}
+
+
+#contentCard img {
+    width: 30%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#contentCard h4 {
+    margin-bottom: 7rem;
+}
+
+#contentCard h3 {
+    margin-top: 0.4rem !important;
+}
+
+#contentCard span {
+    color: gray;
+}
 
 .content {
     background: #FF6E14;
@@ -50,7 +93,7 @@
 
 }
 
-.block{
+.block {
     max-width: 93rem;
     box-shadow: 0 -1px 4px 0 rgb(26 26 26 / 8%), 0 4px 8px 0 rgb(26 26 26 / 12%);
     background-color: #fff;
@@ -58,9 +101,10 @@
     border-radius: 4px;
     margin: 0 auto;
     position: relative;
-    top: 60%!important;
+    top: 60% !important;
 }
-.backFooter{
+
+.backFooter {
     background-color: #F4F6F7;
 }
 
@@ -68,7 +112,7 @@
     background-color: #474747;
 }
 
-.fontsizefooter h1, p {
+.fontsizefooter h1 p {
     color: white;
     font-size: 0.8rem;
 }
@@ -84,7 +128,7 @@ header {
 }
 
 .orange-burger {
-    color:#e95420;
+    color: #e95420;
 }
 
 .fa-search {
@@ -93,10 +137,10 @@ header {
 }
 
 .search-btn {
-    color:black;
+    color: black;
 }
 
 .search-btn:hover {
-    color:#e95420 !important;
+    color: #e95420 !important;
     opacity: 85%;
 }
