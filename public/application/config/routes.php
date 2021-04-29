@@ -49,7 +49,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'controller_signUp/home';
+//$route['default_controller'] = 'postAd/index';
+$route['header'] = 'Controller_header/index';
+$route['footer'] = 'Footer_controller/index';
+$route["addAd"] = "postAd/addAd";
+$route["error"] = "postAd/error";
+$route['default_controller'] = 'controller_accueil/accueil';
+$route['accueil'] = 'controller_accueil/accueil';
 $route['addUser'] = 'controller_signUp/addUser';
 $route['signUp'] = 'controller_signUp/signUp';
 $route['signIn'] = 'controller_signIn/signIn';
@@ -57,3 +63,4 @@ $route['checkConnect'] = 'controller_signIn/checkConnect';
 $route['home'] = 'Controller_header/home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+$route['accueil'] = 'controller_accueil/accueil';
