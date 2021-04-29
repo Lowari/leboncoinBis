@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/united/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Title</title>
-</head>
-
-<body>
 
     <div class="content">
         <div class="contentTitle">
@@ -20,37 +6,6 @@
             <p>Trouvez la bonne affaire parmi les millions de petites annonces leboncoinBis</p>
         </div>
     </div>
-
-    <!-- <div class="block">
-        <input type="radio" value="offres"> <span class="mr-2">Offres</span>
-        <input type="radio" value="demandes"> <span>Demandes</span>
-
-
-        <div class="flex">
-            <div class="row mt-2">
-                <div class="form-group">
-                    <select class="form-control" id="exampleSelect1">
-                        <option selected disabled>Catégorie</option>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                    </select>
-                </div>
-
-                <div class="form-group mx-2">
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Que recherchez-vous ?">
-                </div>
-
-                <div class="form-group">
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Saisissez une ville et un rayon">
-                </div> -->
-
-    <!-- <input maxlength="500" placeholder="Que recherchez-vous ?" class="" type="text" value="">
-
-                <input placeholder="Saisissez une ville et un rayon" class="" type="text" value=""> -->
-
     </div>
     </div>
     </div>

@@ -17,42 +17,42 @@
     <header class="pt-2">
         <nav class="navbar navbar-expand-lg">
 
-            <a class="navbar-brand" href="#">
-                <img src="/assets/img/Leboncoin.fr_Logo_2016.svg" width="100" height="38" class="d-inline-block align-top" alt="">
+            <!-- menu burger -->
+            <a href="<?= base_url() ?>accueil" class="navbar-brand mr-4" href="#">
+                <img src="/assets/img/Leboncoin.fr_Logo_2016.svg" width="180" height="48" class="d-inline-block align-top" alt="">
             </a>
 
             <!-- menu burger -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fas fa-bars orange-burger"></i>
             </button>
-                <a href="<?= base_url()?>home" class="navbar-brand mr-4" href="#">
-                    <img src="/assets/img/Leboncoin.fr_Logo_2016.svg" width="180" height="48" class="d-inline-block align-top" alt="">
-                </a>
 
-                <!-- menu burger -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars orange-burger"></i>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarColor01">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active mb-2">
-                            <a class="nav-link btn btn-outline-primary" href="#"> Déposer une annonce
-                                
-                            </a>
-                        </li>
-                        <li class="nav-item mb-2">
-                            <a class="nav-link search-btn" href="#"> <i class="fas fa-search mx-2"></i> Rechercher</a>
-                        </li>
-                    </ul>
-
-                    <a href="<?= base_url()?>signIn" class="nav-link btn btn-primary text-left" href="#"> Se connecter
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active mb-2">
+                        <a class="nav-link btn btn-outline-primary" href="<?= base_url() ?>addAd"> Déposer une annonce</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a class="nav-link search-btn" href="<?= base_url() ?>searchAd"> <i class="fas fa-search mx-2"></i> Rechercher</a>
+                    </li>
+                </ul>
+                <?php if (isset($_SESSION["id"])) { ?>
+                    <a href="<?= base_url() ?>checkProfile" class="nav-link btn btn-primary text-left"> Voir mon profil
 
                     </a>
-                    <a href="<?= base_url()?>signUp" class="nav-link btn btn-primary text-left" href="#"> Inscription
+                    <a href="<?= base_url() ?>disconnect" class="nav-link btn btn-primary text-left"> Déconnexion
 
                     </a>
-                </div>
+                <?php } else { ?>
+                    <a href="<?= base_url() ?>signIn" class="nav-link btn btn-primary text-left"> Se connecter
+
+                    </a>
+                    <a href="<?= base_url() ?>signUp" class="nav-link btn btn-primary text-left"> Inscription
+
+                    </a>
+                <?php } ?>
+
+            </div>
         </nav>
 
     </header>
