@@ -16,7 +16,7 @@
 
 </div>
 
-<footer>
+<footer .>
 
     <div class="backFooter pt-4 pb-4 text-center">
         <div>
