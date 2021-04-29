@@ -36,8 +36,8 @@
 } */
 
 
-.card {
-    width: 60rem;
+.card-custom {
+   
     justify-content: center;
     border-radius: 20px;
 }
@@ -159,7 +159,7 @@ header {
     opacity: 85%;
 }
 
-.card-body::after{
+.radAd .card-body::after{
     content :"";
     position: absolute;
     bottom : 20px;
@@ -219,4 +219,10 @@ header {
     
     
 
+ }
+
+ .img-ratio {
+    width: auto;
+    height: 200px;
+    object-fit: cover;
  }

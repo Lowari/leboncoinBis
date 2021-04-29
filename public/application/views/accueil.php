@@ -6,19 +6,14 @@
             <p>Trouvez la bonne affaire parmi les millions de petites annonces leboncoinBis</p>
         </div>
     </div>
-    </div>
-    </div>
-    </div>
+
+    
 
     <p class="mb-5">ehfejzc</p>
 
-
-    <a class="btn btn-primary mb-5" type="submit">blabla</a>
-    </div>
-
     <div class="container">
 
-        <div class="card mt-2 shadow-lg">
+        <div class="card-custom card mt-2 shadow-lg">
             <div class="d-flex" id="contentCard">
                 <img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/33/ed/93/33ed93829e12c466f5974f8662f524869b5de3df.jpg?rule=ad-image" class="_1cnjm" alt="Type 3 centre ville du havre">
                 <div>
