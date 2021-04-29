@@ -51,7 +51,7 @@
         <div class="d-flex">
         <img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/33/ed/93/33ed93829e12c466f5974f8662f524869b5de3df.jpg?rule=ad-image" class="_1cnjm" alt="Type 3 centre ville du havre">
             <div>
-                <h2 class="mr-2">Type 3 centre ville du havre</h2>
+                <h2 class="mr-2">Type 3 centre ville du Havre</h2>
                 <h3 class="mr-2">717€</h3>
                 <h2 class="mr-2">Locations</h2>
                 <span>Le Havre 76600</span>
