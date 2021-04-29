@@ -21,7 +21,8 @@
                 } ?>
 
             </div>
-            <div class="d-flex justify-content-center pb-2"><input type="submit" name="submit" class="btn btn-primary" value="Ajouter" /></div>
+            <div class="d-flex justify-content-center pb-2"><input type="submit" name="submit" class="btn btn-primary" value="Connexion" /></div>
     </div>
 </div>
+<a class="d-flex justify-content-center" href="<?= base_url() ?>signUp">S'inscrire</a>
 </form>

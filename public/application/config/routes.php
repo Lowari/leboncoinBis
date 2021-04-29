@@ -54,6 +54,7 @@ $route['header'] = 'Controller_header/index';
 $route['footer'] = 'Footer_controller/index';
 $route["addAd"] = "postAd/index";
 $route["createAd"] = "postAd/addAd";
+$route["checkProfile"] = "Controller_checkProfile/checkProfile";
 $route["error"] = "postAd/error";
 $route['default_controller'] = 'controller_accueil/accueil';
 $route['accueil'] = 'controller_accueil/accueil';

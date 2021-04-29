@@ -62,10 +62,6 @@
 
     </div>
 
-    <?php
-    var_dump($test);
-
-    ?>
 
     <?php
     foreach ($test as $key => $value) {
