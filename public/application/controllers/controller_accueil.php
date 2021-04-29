@@ -17,11 +17,4 @@ class controller_accueil extends CI_Controller
         $this->load->view('accueil' ,$data);
     }
 
-    
-    public function countRow()
-    {
-        
-        $this->load->view('header');
-        $this->load->view('accueil');
-    }
 }
