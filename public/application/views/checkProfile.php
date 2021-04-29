@@ -7,4 +7,5 @@
     <div class="">Adresse: <?php echo $getUserInfo[0]->adress ?></div>
     <div class="">Ville: <?php echo $getUserInfo[0]->city ?></div>
     <div class="">Code Postal: <?php echo $getUserInfo[0]->zipCode ?></div>
+    <a href="<?= base_url() ?>updProfile" class="nav-link btn btn-primary d-flex align-self-center col-4">Modifier mon profil</a>
 </div>
