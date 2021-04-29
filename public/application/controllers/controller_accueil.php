@@ -12,5 +12,6 @@ class controller_accueil extends CI_Controller
     {
         $this->load->view('header');
         $this->load->view('accueil');
+        $this->load->view('footer');
     }
 }

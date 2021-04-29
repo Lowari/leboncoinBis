@@ -16,13 +16,13 @@
 
 </div>
 
-<footer .>
+<footer>
 
     <div class="backFooter pt-4 pb-4 text-center">
         <div>
-            <?php foreach ($infoFooter as $info) { ?>
+            <?php foreach($infoFooter as $info) { ?>
                 <div>
-                    <?php echo $info->name ?>
+                    <?= $info->name ?>
                 </div>
             <?php }  ?>
         </div>
