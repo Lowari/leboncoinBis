@@ -14,4 +14,10 @@ class Controller_header extends CI_Controller {
 	{
 		$this->load->view('header');
 	}
+    public function home()
+	{
+        $this->load->view('header');
+        $this->load->view('home');
+	}
 }
+
