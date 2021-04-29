@@ -6,10 +6,10 @@
 
   <?php foreach($lastestAd as $ad){ ?>
 
-    <div class="card mb-3 mt-2">
-    <div class="row no-gutters text-md-center">
-      <div class="col-md-4 col-12">
-        <img src="../../../assets/img/imgAd/<?=$ad->image?>" alt="..." class="imgAd">
+    <div class="card mb-3 mt-2 radAd">
+    <div class="row no-gutters littleCenter ">
+      <div class="col-md-4 col-12 ">
+        <img src="../../../assets/img/imgAd/<?=$ad->image?>" alt="..." class="imgAd radAdImg">
       </div>
       <div class="col-md-8">
         <div class="card-body">
