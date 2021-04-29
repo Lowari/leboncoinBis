@@ -51,5 +51,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'postAd/index';
 $route['header'] = 'Controller_header/index';
+$route['footer'] = 'Footer_controller/index';
+$route["addAd"] = "postAd/addAd";
+$route["error"] = "postAd/error";
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
