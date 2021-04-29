@@ -16,11 +16,11 @@
 
     <header>
         <nav class="navbar navbar-expand-lg">
-           
-                <a class="navbar-brand" href="#">
-                    <img src="/assets/img/Leboncoin.fr_Logo_2016.svg" width="100" height="38" class="d-inline-block align-top" alt="">
-                </a>
-         
+
+            <a class="navbar-brand" href="#">
+                <img src="/assets/img/Leboncoin.fr_Logo_2016.svg" width="100" height="38" class="d-inline-block align-top" alt="">
+            </a>
+
             <!-- menu burger -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -56,11 +56,3 @@
 
         <!-- création d'un container global pour mise en page -->
         <!-- /div à mettre dans le footer -->
-    </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
-</body>
-
-</html>
