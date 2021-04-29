@@ -16,7 +16,7 @@
       <th scope="row"><a href="<?php base_url() ?>user_info"><?= $user->lastname?> <?= $user->firstname?></a></th>
       <td><?= $user->username?></td>
       <td><?= $user->mail?></td>
-      <td><a href="<?= base_url() ?>deleteUser?id=<?=$user->id?>"> <i class="fas fa-gavel"></i> <u>Supprimer</u></a></td>
+      <td><form method="POST" action="deleteUser"><button class="btn btn-primary" type="submit" name="deleteId" id="deleteId" value="<?=$user->id?>"><i class="fas fa-gavel"><u>Supprimer</u></i></button></form></td>
     </tr>
     <?php } ?>
   </tbody>

@@ -21,10 +21,13 @@ class Admin_controller extends CI_Controller
     }
 
     public function deleteUser()
-    {
-        $id = $_GET['id'];
+    {   if(isset($_SESSION["lvl"]) && $_SESSION["lvl"] == 1 && isset($_POST["deleteId"])){
+            $id = $_POST["deleteId"];
         $this->admin_model->deleteUse($id);
         $this->index();
+    }else{
+
+        }
     }
   
 }
