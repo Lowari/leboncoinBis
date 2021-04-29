@@ -1,6 +1,6 @@
 <div class="container postAd">
 
-    <form action="addAd" method="post" enctype="multipart/form-data">
+    <form action="createAd" method="post" enctype="multipart/form-data">
         <fieldset>
             <legend class="text-primary">Déposer une annonce</legend>
             <div class="form-group">
