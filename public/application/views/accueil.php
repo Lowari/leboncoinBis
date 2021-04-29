@@ -62,22 +62,7 @@
 
     </div>
 
-    <?php
-    var_dump($test);
 
-    ?>
-
-    <?php
-    foreach ($test as $key => $value) {
-    ?>
-        <p> <?php echo $test[$key]["id"] ?></p>
-
-        <img src="?php echo $test[$key]['image'] ?>" >
-
-        <p> <?php echo $test[$key]["title"] ?></p>
-    <?php
-    }
-    ?>
 
 
 
