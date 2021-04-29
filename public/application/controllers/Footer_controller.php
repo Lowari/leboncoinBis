@@ -21,6 +21,7 @@ class Footer_controller extends CI_Controller
     public function readFooter() {
         
         $data["infoFooter"] = $this->Footer_model->getInfosFooter();
+        $_SESSION["infoFooter"] = $data["infoFooter"];
         $this->load->view('header');
         $this->load->view('footer', $data);
         
