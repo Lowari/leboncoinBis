@@ -47,17 +47,17 @@
 
                         </a>
                     <?php } ?>
-                    <a href="<?= base_url() ?>checkProfile" class="nav-link btn btn-primary text-left"> Voir mon profil
+                    <a href="<?= base_url() ?>checkProfile" class="ml-3 nav-link btn btn-primary text-left"> Voir mon profil
 
                     </a>
-                    <a href="<?= base_url() ?>disconnect" class="nav-link btn btn-primary text-left"> Déconnexion
+                    <a href="<?= base_url() ?>disconnect" class="ml-3 nav-link btn btn-primary text-left"> Déconnexion
 
                     </a>
                 <?php } else { ?>
                     <a href="<?= base_url() ?>signIn" class="nav-link btn btn-primary text-left"> Se connecter
 
                     </a>
-                    <a href="<?= base_url() ?>signUp" class="nav-link btn btn-primary text-left"> Inscription
+                    <a href="<?= base_url() ?>signUp" class="ml-3 nav-link btn btn-primary text-left"> Inscription
 
                     </a>
                 <?php } ?>

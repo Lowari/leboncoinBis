@@ -72,6 +72,7 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['accueil'] = 'controller_accueil/accueil';
 $route["searchAdFilter"] = "controller_ad/searchAd";
+$route["oneAd"] = "controller_ad/detailAd";
 
 // admin route 
 $route['admin'] = "Admin_controller";
