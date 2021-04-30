@@ -22,4 +22,12 @@ class controller_ad extends CI_Controller
         $this->load->view("ad",$data);
         $this->load->view("footer");
     }
+
+    public function detailAd(){
+        $id = $_GET["id"];
+        $data["ad"] = $this->ad_model->getOneAd($id);
+        $this->load->view("header");
+        $this->load->view("oneAd",$data);
+        $this->load->view("footer");
+    }
 } 

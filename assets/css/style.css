@@ -37,7 +37,6 @@
 
 
 .card-custom {
-   
     justify-content: center;
     border-radius: 20px;
 }
@@ -47,8 +46,6 @@
     border-radius: 20px;
     border: 1px solid gray;
 }
-
-
 
 #contentCard:hover h3 {
     color: #FF6E14;
@@ -61,7 +58,6 @@
     left: 92%;
     top: 27%;
 }
-
 
 #contentCard img {
     width: 30%;
@@ -187,7 +183,6 @@ header {
     margin-top: 15px;
 }
 
-
 .searchAd{
     height: 100%;
     background-color: #fff;
@@ -198,7 +193,6 @@ header {
 }
 
 .colorRond {
-
     visibility: visible;
     position: absolute;
     left: 0;
@@ -216,7 +210,6 @@ header {
     display: block;
     background: #ff6e14;
     height: 7rem;
-
 }
 
 .colorRond:after {
@@ -225,8 +218,7 @@ header {
     background: #ff6e14;
     border-radius: 0 0 50% 50%/0 0 100% 100%;
     margin: 0rem -0.8rem 0;
-    height: 5rem;
-    
+    height: 5rem; 
 }
 
 .navbar {
@@ -234,7 +226,7 @@ header {
 }
 
 .imgAd {
-    width: 200px;
+    width: 230px;
     height: 100%;
     object-fit: cover;
     
@@ -253,11 +245,48 @@ header {
     .littleCenter{
         text-align: center;
     }
+}
 
- }
-
- .img-ratio {
+.img-ratio {
     width: auto;
     height: 200px;
     object-fit: cover;
  }
+
+
+ .traitOneAd{
+     border-bottom: 1px solid lightgray;
+     width: 100%;
+ }
+
+ .allTextOneAd{
+     padding-left: 15px;
+ }
+
+ .imgOneAd{
+     max-height: 100%;
+     min-height: 100%;
+     border-radius: 15px;
+ }
+
+ .containerImage{
+     height: 300px;
+ }
+
+ .livraison{
+     background-color: #fef0e9;
+     color : #FF6E14;
+     padding: 5px 15px ;
+     text-align: center;
+     border-radius: 30px;
+ }
+}
+
+@media (max-width: 768px) {
+
+.imgSignup{
+
+    display: none;
+}
+}
+

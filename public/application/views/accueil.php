@@ -1,3 +1,4 @@
+
 <div class="colorRond"></div>
 <div class="searchAd shadow p-3">
 <p class="text-primary h2 text-center">Rechercher</p>
@@ -39,7 +40,7 @@
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title"> <?= $ad["title"]; ?> </h5>
+        <a href="<?=base_url()?>oneAd?id=<?=$ad["idAd"]?>"><h5 class="card-title"> <?= $ad["title"]; ?> </h5></a>
         <p class="card-text"><?= $ad["description"]; ?></p>
         <p class="card-text"><?= $ad["price"]; ?> €</p>
         <p class="card-text"><small class="text-muted"><?= $ad["name"]; ?></small></p>
