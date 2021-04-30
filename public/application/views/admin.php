@@ -15,7 +15,7 @@
         <tbody>
           <?php foreach ($description_list as $user) { ?>
             <tr class="table-light">
-              <th scope="row"><a href="<?php base_url() ?>user_info"><?= $user->lastname ?> <?= $user->firstname ?></a></th>
+              <th scope="row"><a href="<?php base_url() ?>checkProfile"><?= $user->lastname ?> <?= $user->firstname ?></a></th>
               <td><?= $user->username ?></td>
               <td><?= $user->mail ?></td>
               <td>

@@ -78,8 +78,6 @@ class postAd extends CI_Controller
                 "id_lbc_user" =>  $_SESSION["id"],
                 "id_lbc_region" => htmlspecialchars($this->input->post("region")),
             );
-            echo $this->input->post("category");
-            echo $this->input->post("region");
             $this->postAd_Model->setAd($ad);
             $this->load->view("header");
             $this->load->view("adGreat");

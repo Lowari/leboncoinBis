@@ -8,6 +8,7 @@ class Admin_user_controller extends CI_Controller
     {
         parent::__construct();
         $this->load->model('Footer_model');
+        $this->load->model('checkProfile_model');
         $this->load->helper('url_helper');
     }
 
@@ -16,5 +17,12 @@ class Admin_user_controller extends CI_Controller
         $this->load->view('header');
         $this->load->view('user_info');
         $this->load->view('footer');
+    }
+    public function checkProfile(){
+        $id = array("id" => $_SESSION["id"]);
+        $data["getUserInfo"] = $this->checkProfile_model->getUserInfo($id);
+        $this->load->view('header');
+        $this->load->view('user_info',$data);
+        $this->load->view("footer");
     }
 }
