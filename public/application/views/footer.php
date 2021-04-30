@@ -2,7 +2,7 @@
 </div>
 
 
-<footer>
+<footer class="mt-5">
 
     <div class="backFooter pt-4 pb-4 text-center">
         <div>
@@ -15,11 +15,11 @@
     </div>
 
     <footer class="backFooterBis text-center text-lg-start">
-        <!-- Grid container -->
+        
         <div class="container p-4">
-            <!--Grid row-->
+            
             <div class="row">
-                <!--Grid column-->
+                
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
                     <h5 class="text-uppercase">à propos du boncoin</h5>
 
@@ -46,9 +46,7 @@
                         </li>
                     </ul>
                 </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
+                
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
                     <h5 class="text-uppercase mb-0">Informations légales</h5>
 
@@ -76,9 +74,7 @@
                         </li>
                     </ul>
                 </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
+                
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
                     <h5 class="text-uppercase">Nos solutions pros</h5>
 
@@ -106,9 +102,7 @@
                         </li>
                     </ul>
                 </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
+                
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
                     <h5 class="text-uppercase mb-0">Des questions ?</h5>
 
@@ -130,48 +124,17 @@
                         </li>
                     </ul>
                 </div>
-                <!--Grid column-->
+                
             </div>
-            <!--Grid row-->
+            
         </div>
-        <!-- Grid container -->
-
-        <!-- Copyright -->
+    
         <div class="text-center p-3" style="background-color: 
 rgba(0, 0, 0, 0.2);">
             © 2020 Copyright:
             <a class="">LEBONCOIN</a>
         </div>
-        <!-- Copyright -->
     </footer>
-
-    <!-- <div class="backFooterBis fontsizefooter pt-4 text-center">
-
-        <div>
-            <h1>A PROPOS DU BONCOIN</h1>
-        </div>
-
-        <div>
-            <h1>NOS APPLICATIONS</h1>
-        </div>
-
-        <div>
-            <h1>INFORMATIONS LÉGALES</h1>
-        </div>
-
-        <div>
-            <h1>NOS SOLUTIONS PROS</h1>
-        </div>
-
-        <div>
-            <h1>DES QUESTIONS</h1>
-        </div>
-
-        <hr>
-
-        <div>
-            <p class="text-center">leboncoinbis 2021</p>
-        </div> -->
 
     </div>
 

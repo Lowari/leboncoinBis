@@ -1,7 +1,7 @@
  <h1 class="pt-2">Formulaire d'inscription</h1>
     <div class="row">
-        <div class="col-6">
-            <form method="POST" action="addUser" class="col-xl-12">
+        <div class="col-xl-6 col-12">
+            <form method="POST" action="addUser">
                 <div class="form-group">
                     <label class="form-control-label" for="username">Pseudonyme</label>
                     <input class="form-control" type="text" id="username" name="username" value="<?= set_value('username'); ?>">
@@ -61,7 +61,7 @@
                     <?= form_error('zipCode') ?>
                 </div>
 
-                <div class="d-flex justify-content-center pb-2"><input type="submit" name="submit" class="btn btn-primary" value="Ajouter" /></div>
+                <div class="d-flex justify-content-center pb-2"><input type="submit" name="submit" class="btn btn-primary" value="S'inscrire" /></div>
 
             </form>
         </div>

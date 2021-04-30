@@ -1,6 +1,6 @@
-<div class="p-5 row d-flex justify-content-center ">
+<div class="p-5 row d-flex justify-content-center">
 
-    <div class="col-6 border">
+    <div class="col-xl-6 col-12 border">
         <p class="h3 d-flex justify-content-center">Bonjour !</p>
         <p class="d-flex justify-content-center">Connectez-vous pour découvrir toutes nos fonctionnalités</p>
         <form method="POST" action="checkConnect">
