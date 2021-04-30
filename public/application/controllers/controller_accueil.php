@@ -14,10 +14,9 @@ class controller_accueil extends CI_Controller
         $this->allRegion();
         $data["lastestAd"] = $this->accueil_model->getLastAd();
         $data["test"] = $this->accueil_model->randomAdd();
-        // print_r($test);
-        // exit;
         $this->load->view('header');
         $this->load->view('accueil' ,$data);
+        $this->load->view("footer");
     }
 
     public function allCategory(){

@@ -20,7 +20,7 @@ class postAd extends CI_Controller
             $this->load->view("header");
             $this->load->view('postAd', $data);
             $this->load->view("footer");
-        } else {
+        } else { 
             $this->load->view("header");
             $this->load->view("postAdConnect");
             $this->load->view("footer");

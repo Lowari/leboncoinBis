@@ -30,13 +30,23 @@
             <div class="collapse navbar-collapse" id="navbarColor01">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active mb-2">
-                        <a class="nav-link btn btn-outline-primary" href="<?= base_url() ?>addAd"> Déposer une annonce</a>
+                        <?php if (isset($_SESSION["id"])) { ?>
+                            <a class="nav-link btn btn-outline-primary" href="<?= base_url() ?>addAd"> Déposer une annonce</a>
+                        <?php } else { ?>
+                            <a class="nav-link btn btn-outline-primary" href="<?= base_url() ?>signIn"> Déposer une annonce</a>
+                        <?php } ?>
+
                     </li>
                     <li class="nav-item mb-2">
                         <a class="nav-link search-btn" href="<?= base_url() ?>searchAd"> <i class="fas fa-search mx-2"></i> Rechercher</a>
                     </li>
                 </ul>
                 <?php if (isset($_SESSION["id"])) { ?>
+                    <?php if ($_SESSION['lvl'] == 1) { ?>
+                        <a href="<?= base_url() ?>adminAccess" class="nav-link btn btn-primary text-left"> admin
+
+                        </a>
+                    <?php } ?>
                     <a href="<?= base_url() ?>checkProfile" class="nav-link btn btn-primary text-left"> Voir mon profil
 
                     </a>

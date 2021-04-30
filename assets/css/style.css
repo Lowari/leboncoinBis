@@ -1,17 +1,19 @@
-.container{
+.container {
     margin-top: 0;
 }
-.postAdLog{
-    height : 100vh;
-    margin-top : 30px;
+
+.postAdLog {
+    height: 100vh;
+    margin-top: 30px;
 }
 
-.postAd{
-    height : 100%;
-    margin-top : 30px;
-    width : 70%;
+.postAd {
+    height: 100%;
+    margin-top: 30px;
+    width: 70%;
     display: block;
 }
+
 /* .content {
     position: absolute;
     overflow: hidden;
@@ -36,7 +38,11 @@
 } */
 
 
-
+.card-custom {
+   
+    justify-content: center;
+    border-radius: 20px;
+}
 
 #contentCard {
     height: 36vh;
@@ -51,7 +57,7 @@
     transition: all 0.5s ease;
 }
 
-#contentCard .heart{
+#contentCard .heart {
     width: 2.8em !important;
     position: absolute;
     left: 92%;
@@ -120,6 +126,13 @@
 
 .backFooterBis {
     background-color: #474747;
+    color: #ffff;
+}
+
+.backFooterBis a {
+    color: #ffff;
+    font-size: 0.8em;
+    margin-top: 0.5em;
 }
 
 .fontsizefooter h1 p {
@@ -156,10 +169,13 @@ header {
 }
 
 .radAd .card-body::after{
-    content :'<i class="fas fa-heart"></i>';
+    content :'';
     /*background-image: url("../img/heart-solid.svg");*/
+}
+.radAd .card-body::after{
+    content :"";
     position: absolute;
-    bottom : 20px;
+    bottom: 20px;
     right: 20px;
     width: 40px;
     height: 40px;
@@ -169,32 +185,35 @@ header {
     opacity: 1;
 }
 
-.globalAd{
+.globalAd {
     margin-top: 15px;
 }
+
 
 .searchAd{
     height: 100%;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: #000;
-    margin-top : 50px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
-.colorRond{
 
-   visibility: visible;
+.colorRond {
+
+    visibility: visible;
     position: absolute;
     left: 0;
-    top:80px;
-    z-index:-100;
+    top: 80px;
+    z-index: -100;
     height: 50px;
     width: 100%;
     height: 100%;
     overflow: hidden;
     
 }
-.colorRond::before{
+
+.colorRond::before {
     content: "";
     display: block;
     background: #ff6e14;
@@ -212,11 +231,11 @@ header {
     
 }
 
-.navbar{
+.navbar {
     background-color: #fff;
 }
 
-.imgAd{
+.imgAd {
     max-width: 230px;
     
 }
@@ -235,4 +254,10 @@ header {
         text-align: center;
     }
 
+ }
+
+ .img-ratio {
+    width: auto;
+    height: 200px;
+    object-fit: cover;
  }

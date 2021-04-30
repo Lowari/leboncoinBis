@@ -30,22 +30,22 @@
       <button type="submit" class="btn btn-primary">Rechercher</button>
     </form>
   </div>
-  <?php foreach ($lastestAd as $ad) { ?>
+  <?php foreach ($test as $ad) { ?>
 
 <div class="card mb-3 mt-2 radAd">
   <div class="row no-gutters littleCenter ">
     <div class="col-md-4 col-12 ">
-      <img src="../../../assets/img/imgAd/<?= $ad->image ?>" alt="..." class="imgAd radAdImg">
+      <img src="../../../assets/img/imgAd/<?= $ad["image"] ?>" alt="..." class="imgAd radAdImg">
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title"> <?= $ad->title; ?> </h5>
-        <p class="card-text"><?= $ad->description; ?></p>
-        <p class="card-text"><small class="text-muted"><?= $ad->name; ?></small></p>
-        <p class="card-text"><small class="text-muted"><?= $ad->regionName; ?> <?= $ad->number; ?></small></p>
+        <h5 class="card-title"> <?= $ad["title"]; ?> </h5>
+        <p class="card-text"><?= $ad["description"]; ?></p>
+        <p class="card-text"><?= $ad["price"]; ?> €</p>
+        <p class="card-text"><small class="text-muted"><?= $ad["name"]; ?></small></p>
+        <p class="card-text"><small class="text-muted"><?= $ad["regionName"]; ?> <?= $ad["number"]; ?></small></p>
       </div>
     </div>
   </div>
 </div>
-
 <?php } ?>

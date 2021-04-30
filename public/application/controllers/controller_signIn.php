@@ -50,6 +50,8 @@ class controller_signIn extends CI_Controller
                                         unset($_SESSION["errorLogin"]);
                                         unset($_SESSION["errorPass"]);
                                         $_SESSION["id"] = $userId[0]->id;
+                                        $_SESSION["lvl"] = $userId[0]->id_lbc_lvlUser;
+
                                         $this->load->view('header');
                                         $this->load->view('accueil');
                                 }
