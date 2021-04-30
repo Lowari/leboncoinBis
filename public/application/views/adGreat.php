@@ -16,7 +16,7 @@
                     </div>
                     <div class="row">
                         <div class="col-sm ">
-                            <a href="<?php echo base_url() ?>profil"><button type="button" class="btn btn-primary mr-3">Voir votre profil</button></a>
+                            <a href="<?php echo base_url() ?>checkProfile"><button type="button" class="btn btn-primary mr-3">Voir votre profil</button></a>
                             <a href="<?php echo base_url() ?>addAd"><button type="button" class="btn btn-outline-primary">Déposer une nouvelle annonce</button></a>
                         </div>
                     </div>

@@ -9,7 +9,7 @@ class controller_signUp extends CI_Controller
         public function home()
         {
                 $this->load->view('header');
-                $this->load->view('home');
+                $this->load->view('accueil');
                 $this->load->view('footer');
         }
         public function signUp()
@@ -53,6 +53,8 @@ class controller_signUp extends CI_Controller
                         $infoUser = array("username"=>$username,"password"=>$password,"firstname"=>$firstname,"lastname"=>$lastname,"phone"=>$phone,"mail"=>$mail,"adress"=>$address,"city"=>$city,"zipCode"=>$zipcode, "id_lbc_lvlUser"=>$lvl);
                         $this->signUp_model->addUser($infoUser);
                         $this->home();
+
+                        redirect(base_url());
                 }
         }
 }

@@ -13,15 +13,14 @@ class postAd extends CI_Controller
 
     public function index()
     {
-        $_SESSION["id"] = 1;
         if (isset($_SESSION["id"])) {
             $data["cat"] = $this->postAd_Model->getAllCategory();
             $data["region"] = $this->postAd_Model->getAllRegion();
             $data["user"] = $this->postAd_Model->getUser($_SESSION["id"]);
             $this->load->view("header");
             $this->load->view('postAd', $data);
-            //$this->load->view("footer");
-        } else {
+            $this->load->view("footer");
+        } else { 
             $this->load->view("header");
             $this->load->view("postAdConnect");
             $this->load->view("footer");
