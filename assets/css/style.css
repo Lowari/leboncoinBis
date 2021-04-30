@@ -14,29 +14,6 @@
     display: block;
 }
 
-/* .content {
-    position: absolute;
-    overflow: hidden;
-    top: 100%;
-    left: 0;
-    right: 0;
-}
-
-.content::before {
-    content: "";
-    display: block;
-    background: #ff6e14;
-    height: 7rem;
-}
-
-.content::after {
-    content: "";
-    display: block;
-    background: #ff6e14;
-    border-radius: 0 0 50% 50%/0 0 100% 100%;
-    margin: -.8rem -2.4rem 0;
-} */
-
 
 .card-custom {
    
@@ -172,6 +149,7 @@ header {
 .radAd .card-body::after{
     content :"";
 }
+
 .card-body::after {
     content: "";
     position: absolute;

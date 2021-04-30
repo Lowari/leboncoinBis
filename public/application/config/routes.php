@@ -71,6 +71,7 @@ $route['searchAd'] = 'controller_ad/index';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['accueil'] = 'controller_accueil/accueil';
+$route["searchAdFilter"] = "controller_ad/searchAd";
 
 // admin route 
 $route['admin'] = "Admin_controller";

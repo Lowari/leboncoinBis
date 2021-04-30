@@ -2,6 +2,17 @@
 </div>
 
 <footer>
+
+    <div class="backFooter pt-4 pb-4 text-center">
+        <div>
+            <?php foreach ($_SESSION["category"] as $info) { ?>
+                <div>
+                    <?php echo $info->name ?>
+                </div>
+            <?php }  ?>
+        </div>
+    </div>
+
     <footer class="backFooterBis text-center text-lg-start">
         <!-- Grid container -->
         <div class="container p-4">
@@ -125,7 +136,8 @@
         <!-- Grid container -->
 
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <div class="text-center p-3" style="background-color: 
+rgba(0, 0, 0, 0.2);">
             © 2020 Copyright:
             <a class="text-dark">Le bon coin</a>
         </div>

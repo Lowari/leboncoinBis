@@ -16,8 +16,8 @@
                     </div>
                     <div class="row">
                         <div class="col-sm ">
-                            <a href="<?php echo base_url() ?>createAcount"><button type="button" class="btn btn-primary mr-3">Créer un compte</button></a>
-                            <a href="<?php echo base_url() ?>logIn"><button type="button" class="btn btn-outline-primary">Se connecter</button></a>
+                            <a href="<?php echo base_url() ?>signUp"><button type="button" class="btn btn-primary mr-3">Créer un compte</button></a>
+                            <a href="<?php echo base_url() ?>signIn"><button type="button" class="btn btn-outline-primary">Se connecter</button></a>
                         </div>
                     </div>
                 </div>
