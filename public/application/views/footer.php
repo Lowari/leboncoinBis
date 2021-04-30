@@ -1,3 +1,5 @@
+</div>
+</div>
 
 <footer>
     <footer class="backFooterBis text-center text-lg-start">
@@ -53,7 +55,7 @@
                         </li>
                         <li>
                             <a href="#!" class="">Vos droits et obligations</a>
-                        </li>                        
+                        </li>
                         <li>
                             <a href="#!" class="">Critères de classement</a>
                         </li>

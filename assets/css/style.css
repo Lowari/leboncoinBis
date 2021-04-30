@@ -140,6 +140,7 @@
     font-size: 0.8rem;
 }
 
+
 /* .fontsizefooter:hover h1 {
     text-decoration: underline;
 } */
@@ -168,13 +169,11 @@ header {
     opacity: 85%;
 }
 
-<<<<<<< HEAD
 .radAd .card-body::after{
     content :"";
-=======
+}
 .card-body::after {
     content: "";
->>>>>>> 7485f7ffdff81887a6e08bd77fee752f6e9feb21
     position: absolute;
     bottom: 20px;
     right: 20px;

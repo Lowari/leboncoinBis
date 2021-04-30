@@ -64,7 +64,10 @@
 
 <?php
     foreach ($test as $key => $value) {
+        
     ?>
+
+
 <div class="d-flex justify-content-center">
 <div class="card mb-3 mt-2 radAd">
       <div class="row no-gutters littleCenter ">
