@@ -1,7 +1,6 @@
 </div>
 </div>
 
-
 <footer>
 
     <div class="backFooter pt-4 pb-4 text-center">
@@ -67,7 +66,7 @@
                         </li>
                         <li>
                             <a href="#!" class="">Vos droits et obligations</a>
-                        </li>                        
+                        </li>
                         <li>
                             <a href="#!" class="">Critères de classement</a>
                         </li>
