@@ -30,8 +30,10 @@ class controller_accueil extends CI_Controller
     
     public function countRow()
     {
-        
+
         $this->load->view('header');
         $this->load->view('accueil');
+        
     }
+
 }

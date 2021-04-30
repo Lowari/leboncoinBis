@@ -1,7 +1,7 @@
  <h1 class="pt-2">Formulaire d'inscription</h1>
     <div class="row">
         <div class="col-6">
-            <form method="POST" action="addUser">
+            <form method="POST" action="addUser" class="col-xl-12">
                 <div class="form-group">
                     <label class="form-control-label" for="username">Pseudonyme</label>
                     <input class="form-control" type="text" id="username" name="username" value="<?= set_value('username'); ?>">
@@ -66,6 +66,6 @@
             </form>
         </div>
         <div class="col-6">
-        <img src="https://www.leboncoin.fr/_next/image?url=%2F_next%2Fstatic%2Fcreation-compte-b2311420.jpg&w=640&q=70">
+        <img class="imgSignup" src="https://www.leboncoin.fr/_next/image?url=%2F_next%2Fstatic%2Fcreation-compte-b2311420.jpg&w=640&q=70">
         </div>
     </div>

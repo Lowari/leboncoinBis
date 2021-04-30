@@ -7,7 +7,7 @@
         <div>
             <?php foreach ($_SESSION["category"] as $info) { ?>
                 <div>
-                    <?php echo $info->name ?>
+                    <?= $info->name ?>
                 </div>
             <?php }  ?>
         </div>
@@ -139,7 +139,7 @@
         <div class="text-center p-3" style="background-color: 
 rgba(0, 0, 0, 0.2);">
             © 2020 Copyright:
-            <a class="text-dark">Le bon coin</a>
+            <a class="">LEBONCOIN</a>
         </div>
         <!-- Copyright -->
     </footer>

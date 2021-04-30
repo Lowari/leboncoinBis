@@ -15,7 +15,6 @@ class Footer_controller extends CI_Controller
     {
         $this->load->view('header');
         $this->load->view('footer');
-        
     }
 
     public function readFooter() {
@@ -24,6 +23,5 @@ class Footer_controller extends CI_Controller
         $_SESSION["infoFooter"] = $data["infoFooter"];
         $this->load->view('header');
         $this->load->view('footer', $data);
-        
     }
 }

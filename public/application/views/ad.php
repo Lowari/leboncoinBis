@@ -1,7 +1,7 @@
 <div class="colorRond"></div>
 <div class="globalAd">
   <div class="searchAd shadow p-3">
-    <p class="text-primary">Rechercher</p>
+  <p class="text-primary h2 text-center">Rechercher</p>
     <form action="searchAdFilter" method="post">
       <div class="form-group">
         <select class="form-control" id="category" name="category">
@@ -12,6 +12,7 @@
         </select>
       </div>
       <div class="form-group">
+      
       <input type="text" class="form-control" id="search" name="search" placeholder="Que recherchez-vous?">
     </div>
     <div class="form-group">
@@ -31,7 +32,11 @@
       <button type="submit" class="btn btn-primary">Rechercher</button>
     </form>
   </div>
+    <?php if(count($lastestAd) == 0){ ?>
+        <p class="text-center h2 text-primary m-5"> Desolé il n'y a aucun élément qui correspond a votre recherche </p>
+    <?php }else{ ?>
 
+    
   <?php foreach ($lastestAd as $ad) { ?>
 
     <div class="card mb-3 mt-2 radAd">
@@ -41,8 +46,9 @@
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title"> <?= $ad->title; ?> </h5>
+          <a href="<?=base_url()?>oneAd?id=<?=$ad->idAd?>"><h5 class="card-title"> <?= $ad->title; ?> </h5></a>
             <p class="card-text"><?= $ad->description; ?></p>
+            <p class="card-text"><?= $ad->price; ?> €</p>
             <p class="card-text"><small class="text-muted"><?= $ad->name; ?></small></p>
             <p class="card-text"><small class="text-muted"><?= $ad->regionName; ?> <?= $ad->number; ?></small></p>
           </div>
@@ -50,4 +56,4 @@
       </div>
     </div>
 
-  <?php } ?>
+  <?php } }?>
