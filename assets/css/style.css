@@ -36,11 +36,7 @@
 } */
 
 
-.card {
-    width: 60rem;
-    justify-content: center;
-    border-radius: 20px;
-}
+
 
 #contentCard {
     height: 36vh;
@@ -159,14 +155,18 @@ header {
     opacity: 85%;
 }
 
-.card-body::after{
-    content :"";
+.radAd .card-body::after{
+    content :'<i class="fas fa-heart"></i>';
+    /*background-image: url("../img/heart-solid.svg");*/
     position: absolute;
     bottom : 20px;
     right: 20px;
-    width: 50px;
-    height: 50px;
-    border: 1px solid red;
+    width: 40px;
+    height: 40px;
+    opacity: 0.7;
+}
+.radAd .card-body::after:hover{
+    opacity: 1;
 }
 
 .globalAd{
@@ -174,7 +174,7 @@ header {
 }
 
 .searchAd{
-    height: 250px;
+    height: 100%;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: #000;
@@ -190,12 +190,16 @@ header {
     z-index:-100;
     height: 50px;
     width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
 }
 .colorRond::before{
     content: "";
     display: block;
     background: #ff6e14;
     height: 7rem;
+
 }
 
 .colorRond:after {
@@ -203,8 +207,9 @@ header {
     display: block;
     background: #ff6e14;
     border-radius: 0 0 50% 50%/0 0 100% 100%;
-    margin: 0rem -8rem 0;
+    margin: 0rem -0.8rem 0;
     height: 5rem;
+    
 }
 
 .navbar{

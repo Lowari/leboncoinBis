@@ -2,7 +2,7 @@
 
     <div class="backFooter pt-4 pb-4 text-center">
         <div>
-            <?php foreach ($infoFooter as $info) { ?>
+            <?php foreach ($_SESSION["category"] as $info) { ?>
                 <div>
                     <?php echo $info->name ?>
                 </div>
