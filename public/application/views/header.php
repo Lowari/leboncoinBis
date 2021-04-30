@@ -43,7 +43,7 @@
                 </ul>
                 <?php if (isset($_SESSION["id"])) { ?>
                     <?php if ($_SESSION['lvl'] == 1) { ?>
-                        <a href="<?= base_url() ?>adminAccess" class="nav-link btn btn-primary text-left"> admin
+                        <a href="<?= base_url() ?>adminAccess" class="nav-link btn btn-primary text-left mr-2"> admin
 
                         </a>
                     <?php } ?>
@@ -54,7 +54,7 @@
 
                     </a>
                 <?php } else { ?>
-                    <a href="<?= base_url() ?>signIn" class="nav-link btn btn-primary text-left"> Se connecter
+                    <a href="<?= base_url() ?>signIn" class="nav-link btn btn-primary text-left mr-2 mb-2 text-center"> Se connecter
 
                     </a>
                     <a href="<?= base_url() ?>signUp" class="ml-3 nav-link btn btn-primary text-left"> Inscription

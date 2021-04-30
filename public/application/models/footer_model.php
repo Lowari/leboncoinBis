@@ -11,7 +11,10 @@ class Footer_model extends CI_Model
 
     function getInfosFooter()
     {
-        $query = $this->db->get('lbc_category');
-        return $query->result();
+        $this->db->select('name');
+        $getCategoryFooter = $this->db->get('lbc_category');
+        return $getCategoryFooter->result();
+        // $query = $this->db->get('lbc_category');
+        // return $query->result();
     }
 }
