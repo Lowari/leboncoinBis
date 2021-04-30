@@ -25,5 +25,6 @@ class Controller_header extends CI_Controller {
         session_destroy();
         redirect(base_url()."accueil");
 	}
+    
 }
 

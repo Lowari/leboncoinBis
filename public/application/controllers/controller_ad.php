@@ -15,4 +15,11 @@ class controller_ad extends CI_Controller
         $this->load->view("ad",$data);
         $this->load->view("footer");
     }
+
+    public function searchAd(){
+        $data["lastestAd"] = $this->ad_model->getAd($this->input->post());
+        $this->load->view("header");
+        $this->load->view("ad",$data);
+        $this->load->view("footer");
+    }
 } 

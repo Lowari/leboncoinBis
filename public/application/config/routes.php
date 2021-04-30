@@ -54,18 +54,26 @@ $route['header'] = 'Controller_header/index';
 $route['footer'] = 'Footer_controller/index';
 $route["addAd"] = "postAd/index";
 $route["createAd"] = "postAd/addAd";
+$route["checkProfile"] = "Controller_checkProfile/checkProfile";
 $route["error"] = "postAd/error";
 $route['default_controller'] = 'controller_accueil/accueil';
 $route['accueil'] = 'controller_accueil/accueil';
 $route['addUser'] = 'controller_signUp/addUser';
+$route['updProfile'] = 'controller_updProfile/loadUpd';
+$route['updUser'] = 'controller_updProfile/updUser';
 $route['disconnect'] = 'Controller_header/disconnect';
 $route['signUp'] = 'controller_signUp/signUp';
 $route['signIn'] = 'controller_signIn/signIn';
 $route['checkConnect'] = 'controller_signIn/checkConnect';
 $route['home'] = 'Controller_header/home';
+$route['adminAccess'] = 'Admin_controller/index';
 $route['searchAd'] = 'controller_ad/index';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['accueil'] = 'controller_accueil/accueil';
+$route["searchAdFilter"] = "controller_ad/searchAd";
 
-
+// admin route 
+$route['admin'] = "Admin_controller";
+$route['user_info'] = "Admin_user_controller";
+$route['deleteUser'] = 'Admin_controller/deleteUser';
