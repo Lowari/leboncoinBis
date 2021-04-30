@@ -1,7 +1,7 @@
 <div class="colorRond"></div>
 <div class="globalAd">
   <div class="searchAd shadow p-3">
-  <p class="text-primary h2 text-center">Rechercher</p>
+  <p class="text-primary h2 text-center"><strong>Rechercher</strong></p>
     <form action="searchAdFilter" method="post">
       <div class="form-group">
         <select class="form-control" id="category" name="category">
@@ -28,8 +28,9 @@
               <option value="<?=$reg->id;?>"><?=$reg->number?> <?=$reg->name;?></option>
             <?php } ?>
         </select>
+        <?=form_error("category");?>
       </div>
-      <button type="submit" class="btn btn-primary">Rechercher</button>
+      <button type="submit" class="btn btn-primary btnSearch "><i class="fas fa-search fa-xs"></i> Lancer la recherche</button>
     </form>
   </div>
     <?php if(count($lastestAd) == 0){ ?>

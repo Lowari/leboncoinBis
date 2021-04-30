@@ -12,7 +12,7 @@
             <div class="form-group">
                 <label for="category">Catégorie</label>
                 <select class="form-control" id="category" name="category">
-                    <option value="0">Catégorie</option>
+                    <option value="0" <?= (!set_value("category")? 'selected' : ''); ?>>Catégorie</option>
                     <?php foreach ($cat as $category) {
                         if (set_value("category") == $category->id) { ?><option value="<?= $category->id ?>" selected><?= $category->name ?></option> <?php } ?>
                         <option value="<?= $category->id ?>"><?= $category->name ?></option>
@@ -43,7 +43,7 @@
             <div class="form-group">
                 <label for="region">Département</label>
                 <select class="form-control" id="region" name="region">
-                    <option value="0" selected="">Sélectionnez votre département</option>
+                    <option value="0" <?= (!set_value("region")? 'selected' : ''); ?>>Sélectionnez votre département</option>
                     <?php foreach ($region as $reg) {
                         if (set_value("region")) {
                             if (set_value("region") == $reg->number) { ?><option value="<?= $reg->number; ?>" selected><?php echo $reg->number . " - " . $reg->name; ?></option> <?php } elseif ($zip == $reg->number) { ?> <option value="<?= $reg->number ?>" selected><?php echo $reg->number . " - " . $reg->name; ?></option> <?php };
@@ -80,7 +80,7 @@
                                                                                         }; ?>" placeholder="Entrer votre mail">
                 <?= form_error("mail"); ?>
             </div>
-            <input type="submit" class="btn btn-primary" value="Déposer" />
+            <input type="submit" class="btn btn-primary mb-5" value="Déposer" />
     </form>
 
 
