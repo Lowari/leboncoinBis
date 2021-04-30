@@ -19,5 +19,11 @@ class Controller_header extends CI_Controller {
         $this->load->view('header');
         $this->load->view('home');
 	}
+    public function disconnect()
+	{
+        $this->load->helper('url');
+        session_destroy();
+        redirect(base_url()."accueil");
+	}
 }
 

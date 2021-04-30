@@ -20,7 +20,7 @@ class postAd extends CI_Controller
             $data["user"] = $this->postAd_Model->getUser($_SESSION["id"]);
             $this->load->view("header");
             $this->load->view('postAd', $data);
-            $this->load->view("footer");
+            //$this->load->view("footer");
         } else {
             $this->load->view("header");
             $this->load->view("postAdConnect");
