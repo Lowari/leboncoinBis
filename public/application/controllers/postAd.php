@@ -47,8 +47,8 @@ class postAd extends CI_Controller
         $this->form_validation->set_rules('city', 'city', 'required', array('required' => "La ville de l'annonce doit etre renseigner"));
         $this->form_validation->set_rules('phone', 'phone', 'required', array('required' => "Le téléphone de contact doit etre renseigner"));
         $this->form_validation->set_rules('mail', 'mail', 'required', array('required' => "Le mail de contact doit etre renseigner"));
-       $this->form_validation->set_rules('category','category','required|callback_check_default');
-        $this->form_validation->set_rules('region','region','required|callback_check_default');
+        //$this->form_validation->set_rules('category','category','callback_check_default');
+        //$this->form_validation->set_rules('region','region','callback_check_default');
         if ($this->input->post("category") == "0") {
             $this->form_validation->set_message('category', "Veuillez Selectionner une catégotie");
         }
@@ -57,13 +57,12 @@ class postAd extends CI_Controller
         }
 
 
-        if ($this->form_validation->run() == FALSE) { 
+        if ($this->form_validation->run() == FALSE) {
             $this->index();
         } else {
             if ($this->upload->do_upload('photoAnnonce') == false) {
                 $_SESSION["error"] = array('error' => $this->upload->display_errors());
                 $this->index();
-                
             } else {
                 unset($_SESSION["error"]);
                 $picture = $this->upload->data('file_name');

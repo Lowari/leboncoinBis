@@ -38,7 +38,7 @@
 
                     </li>
                     <li class="nav-item mb-2">
-                        <a class="nav-link search-btn" href="<?= base_url() ?>searchAd"> <i class="fas fa-search mx-2"></i> Rechercher</a>
+                        <a class="nav-link search-btn" href="<?= base_url() ?>searchAd"> <i class="fas fa-search fa-lg mx-2"></i> Rechercher</a>
                     </li>
                 </ul>
                 <?php if (isset($_SESSION["id"])) { ?>
