@@ -65,7 +65,7 @@
                         </li>
                         <li>
                             <a href="#!" class="">Vos droits et obligations</a>
-                        </li>                        
+                        </li>
                         <li>
                             <a href="#!" class="">Critères de classement</a>
                         </li>

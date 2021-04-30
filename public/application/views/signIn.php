@@ -1,6 +1,6 @@
 <div class="p-5 row d-flex justify-content-center">
 
-    <div class="col-xl-6 col-12 border">
+    <div class="col-12 col-lg-6 border">
         <p class="h3 d-flex justify-content-center">Bonjour !</p>
         <p class="d-flex justify-content-center">Connectez-vous pour découvrir toutes nos fonctionnalités</p>
         <form method="POST" action="checkConnect">
@@ -21,8 +21,8 @@
                 } ?>
 
             </div>
-            <div class="d-flex justify-content-center pb-2"><input type="submit" name="submit" class="btn btn-primary" value="Connexion" /></div>
+            <div class="d-flex justify-content-center pb-2"><input type="submit" name="submit" class="btn btn-primary" value="Connexion" /><a class=" ml-3 btn btn-outline-primary" href="<?= base_url() ?>signUp">S'inscrire</a></div>
     </div>
 </div>
-<a class="d-flex justify-content-center" href="<?= base_url() ?>signUp">S'inscrire</a>
+
 </form>

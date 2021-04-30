@@ -33,12 +33,12 @@
                         <?php if (isset($_SESSION["id"])) { ?>
                             <a class="nav-link btn btn-outline-primary" href="<?= base_url() ?>addAd"> Déposer une annonce</a>
                         <?php } else { ?>
-                            <a class="nav-link btn btn-outline-primary" href="<?= base_url() ?>signIn"> Déposer une annonce</a>
+                            <a class="nav-link btn btn-outline-primary" href="<?= base_url() ?>postAd"> Déposer une annonce</a>
                         <?php } ?>
 
                     </li>
                     <li class="nav-item mb-2">
-                        <a class="nav-link search-btn" href="<?= base_url() ?>searchAd"> <i class="fas fa-search mx-2"></i> Rechercher</a>
+                        <a class="nav-link search-btn" href="<?= base_url() ?>searchAd"> <i class="fas fa-search fa-lg mx-2"></i> Rechercher</a>
                     </li>
                 </ul>
                 <?php if (isset($_SESSION["id"])) { ?>
@@ -57,7 +57,7 @@
                     <a href="<?= base_url() ?>signIn" class="nav-link btn btn-primary mb-2 text-center"> Se connecter
 
                     </a>
-                    <a href="<?= base_url() ?>signUp" class="ml-md-3 nav-link btn btn-primary mb-2 text-center"> Inscription
+                    <a href="<?= base_url() ?>signUp" class="ml-lg-3 mb-2 nav-link btn btn-primary text-center"> Inscription
 
                     </a>
                 <?php } ?>
