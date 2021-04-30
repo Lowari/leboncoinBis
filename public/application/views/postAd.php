@@ -80,7 +80,7 @@
                                                                                         }; ?>" placeholder="Entrer votre mail">
                 <?= form_error("mail"); ?>
             </div>
-            <input type="submit" class="btn btn-primary" value="Déposer" />
+            <input type="submit" class="btn btn-primary mb-5" value="Déposer" />
     </form>
 
 

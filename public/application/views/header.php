@@ -33,7 +33,7 @@
                         <?php if (isset($_SESSION["id"])) { ?>
                             <a class="nav-link btn btn-outline-primary" href="<?= base_url() ?>addAd"> Déposer une annonce</a>
                         <?php } else { ?>
-                            <a class="nav-link btn btn-outline-primary" href="<?= base_url() ?>signIn"> Déposer une annonce</a>
+                            <a class="nav-link btn btn-outline-primary" href="<?= base_url() ?>postAd"> Déposer une annonce</a>
                         <?php } ?>
 
                     </li>
@@ -43,21 +43,21 @@
                 </ul>
                 <?php if (isset($_SESSION["id"])) { ?>
                     <?php if ($_SESSION['lvl'] == 1) { ?>
-                        <a href="<?= base_url() ?>adminAccess" class="nav-link btn btn-primary text-left mr-2"> admin
+                        <a href="<?= base_url() ?>adminAccess" class="nav-link btn btn-primary mb-2 mr-lg-2 text-center"> Admin
 
                         </a>
                     <?php } ?>
-                    <a href="<?= base_url() ?>checkProfile" class="ml-3 nav-link btn btn-primary text-left"> Voir mon profil
+                    <a href="<?= base_url() ?>checkProfile" class="ml-lg-3 nav-link btn btn-primary mb-2 text-center"> Voir mon profil
 
                     </a>
-                    <a href="<?= base_url() ?>disconnect" class="ml-3 nav-link btn btn-primary text-left"> Déconnexion
+                    <a href="<?= base_url() ?>disconnect" class="ml-lg-3 nav-link btn btn-primary mb-2 text-center"> Déconnexion
 
                     </a>
                 <?php } else { ?>
-                    <a href="<?= base_url() ?>signIn" class="nav-link btn btn-primary text-left mr-2 mb-2 text-center"> Se connecter
+                    <a href="<?= base_url() ?>signIn" class="nav-link btn btn-primary mb-2 text-center"> Se connecter
 
                     </a>
-                    <a href="<?= base_url() ?>signUp" class="ml-3 nav-link btn btn-primary text-left"> Inscription
+                    <a href="<?= base_url() ?>signUp" class="ml-lg-3 mb-2 nav-link btn btn-primary text-center"> Inscription
 
                     </a>
                 <?php } ?>

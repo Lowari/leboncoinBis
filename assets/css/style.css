@@ -3,8 +3,8 @@
 }
 
 .postAdLog {
-    height: 100vh;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .postAd {
@@ -282,13 +282,26 @@ header {
      text-align: center;
      border-radius: 30px;
  }
-}
+
 
 @media (max-width: 768px) {
 
 .imgSignup{
-
     display: none;
 }
 }
 
+@media (max-width: 768px) {
+
+    .radAdImg{
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius : 0;
+    }
+
+    .postAd{
+        width: 100%;
+    }
+}
+    
